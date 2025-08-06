@@ -75,15 +75,7 @@ export function HeroSection() {
         
         <div className="mt-12 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
           <p className="text-sm text-muted-foreground mb-2">Created by</p>
-          <p className="text-lg font-semibold text-foreground">Neeraj Kumar Ray</p>
-          <a 
-            href="http://airnav.rf.gd/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-primary hover:text-primary/80 transition-colors mt-2"
-          >
-            airnav.rf.gd <ExternalLink className="h-4 w-4" />
-          </a>
+          <p className="text-lg font-semibold text-foreground">Team WuShang</p>
         </div>
       </div>
       
