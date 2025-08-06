@@ -36,13 +36,33 @@ export function HeroSection() {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
-          <Button size="lg" className="tech-glow-blue hover:scale-105 transition-transform">
-            <Play className="mr-2 h-5 w-5" />
-            Watch Demo
+          <Button 
+            size="lg" 
+            className="tech-glow-blue hover:scale-105 transition-transform"
+            asChild
+          >
+            <a 
+              href="https://drive.google.com/uc?export=download&id=1OUrnUNyemayR2tTZ0qGCzoBhBAW6CCta"
+              download
+            >
+              <Play className="mr-2 h-5 w-5" />
+              Try Demo
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="hover:scale-105 transition-transform">
-            <Github className="mr-2 h-5 w-5" />
-            View Source
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="hover:scale-105 transition-transform"
+            asChild
+          >
+            <a 
+              href="https://github.com/NeerajKumarRay1/airgesture"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="mr-2 h-5 w-5" />
+              View Source
+            </a>
           </Button>
         </div>
         
